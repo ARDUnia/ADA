@@ -1,0 +1,17 @@
+name: Host hardware simulation
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Run simulated hardware tests
+        run: tests/host/run_host_tests.sh
