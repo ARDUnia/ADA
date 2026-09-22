@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.1 — 2026-09-22
+
+- Added all 15 project sound effects under `assets/audio/MP3`.
+- Normalized the supplied three-digit filenames to DFPlayer-compatible four-digit names.
+- Added automated checks for missing or empty audio assets.
+- Updated the English and Persian microSD setup instructions.
+
 ## 1.0.0 — 2026-09-22
 
 - Published the complete ADA ESP8266 firmware.

@@ -11,6 +11,8 @@ The repository contains a host-side simulator under `tests/host`. It compiles th
 - NTP formatted time
 - Arduino timing and ADC input
 
+The same test command also checks that the 15 required DFPlayer files exist under `assets/audio/MP3` and are non-empty.
+
 ## Run locally
 
 Requirements: Bash and a C++17 compiler with AddressSanitizer and UndefinedBehaviorSanitizer.
@@ -27,6 +29,7 @@ Assertions: 83
 Recognized gesture events: 19/19
 Servo range: 45..134 degrees
 DFPlayer MP3-folder commands: 18
+Audio assets: 15/15
 ```
 
 ## Covered scenarios
@@ -50,6 +53,7 @@ DFPlayer MP3-folder commands: 18
 - Dimmed, half-closed, sleeping and wake transitions
 - Servo commands stay in the safe 0°–180° range
 - All face audio tracks use deterministic MP3-folder commands
+- All required audio assets use four-digit filenames and are present
 
 ## Limitation
 

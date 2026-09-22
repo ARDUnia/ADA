@@ -38,7 +38,7 @@ The firmware enforces a valid order: dim time < half-closed time < sleep time. C
 
 ## microSD and audio files
 
-Use a FAT32 microSD card. Create an uppercase or lowercase `MP3` directory supported by the card filesystem and use four-digit filenames:
+The repository includes the complete, ready-to-copy audio set in [`assets/audio/MP3`](../assets/audio/MP3). Use a FAT32 microSD card and copy that `MP3` directory to the root of the card:
 
 ```text
 /MP3/0001.mp3
@@ -49,6 +49,8 @@ Use a FAT32 microSD card. Create an uppercase or lowercase `MP3` directory suppo
 ```
 
 Tracks 1–14 are reactions and track 20 is the startup sound. The firmware uses `playMp3Folder()` so selection follows the filename, not the order in which files were copied to the card.
+
+Keep the filenames four digits long. The supplied archive used three-digit names; the repository copies have been normalized to the format required by the firmware. Do not rename the files or place them directly in the card root.
 
 ## Battery calibration
 

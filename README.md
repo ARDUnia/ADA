@@ -32,8 +32,8 @@ ADA is an interactive desktop robot built around the Wemos D1 mini / ESP8266. It
 1. Build the circuit according to [docs/HARDWARE.md](docs/HARDWARE.md).
 2. Install the libraries listed in [docs/SOFTWARE.md](docs/SOFTWARE.md).
 3. Open `firmware/Ada/Ada.ino` in Arduino IDE, or open the repository in PlatformIO.
-4. Format the microSD card as FAT32 and create an `MP3` folder.
-5. Copy reaction files as `/MP3/0001.mp3` through `/MP3/0014.mp3`, and the startup sound as `/MP3/0020.mp3`.
+4. Format the microSD card as FAT32.
+5. Copy the included [`assets/audio/MP3`](assets/audio/MP3) directory to the root of the card. It already contains `/MP3/0001.mp3` through `/MP3/0014.mp3` and the startup sound `/MP3/0020.mp3`.
 6. Upload the firmware to a Wemos D1 mini / ESP8266.
 7. If no saved network exists, connect to `ADA-Config` using password `12345678`, then open `http://192.168.4.1`.
 
@@ -83,6 +83,7 @@ See the complete BOM, voltage warnings and wiring table in [docs/HARDWARE.md](do
 
 ```text
 firmware/Ada/        Arduino sketch and modules
+assets/audio/MP3/    Ready-to-copy DFPlayer sound effects
 docs/                Hardware and software documentation
 tests/host/          ESP8266 peripheral simulation and regression tests
 .github/workflows/   Automated host test workflow
@@ -91,7 +92,7 @@ platformio.ini       Optional PlatformIO environment
 
 ## Test status
 
-The current build passes 83 host assertions and recognizes all 19 gesture patterns. The simulated servo command range is 45°–134°. See [docs/TESTING.md](docs/TESTING.md) for scope and limitations.
+The current build passes 83 host assertions, recognizes all 19 gesture patterns and verifies that all 15 required audio tracks are present. The simulated servo command range is 45°–134°. See [docs/TESTING.md](docs/TESTING.md) for scope and limitations.
 
 ## License
 
