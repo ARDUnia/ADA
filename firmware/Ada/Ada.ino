@@ -4,6 +4,7 @@
  */
 
 #include "Config.h"
+#include "Version.h"
 #include "Touch.h"
 #include "Display.h"
 #include "Audio.h"
@@ -63,7 +64,8 @@ void setup() {
     delay(500);
 
     Serial.println("=====================================");
-    Serial.println("      ADA ROBOT - FINAL VERSION      ");
+    Serial.print("           ADA ROBOT v");
+    Serial.println(ADA_VERSION);
     Serial.println("=====================================");
 
     initDisplay();

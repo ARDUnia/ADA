@@ -8,6 +8,8 @@
 - Updated the English and Persian microSD setup instructions.
 - Updated GitHub Actions checkout to the Node.js 24-compatible v7 release.
 - Pinned the CI runner to Ubuntu 24.04 for reproducible builds.
+- Added canonical `VERSION` metadata, firmware version constants and startup version output.
+- Added automated protection against version metadata drift.
 
 ## 1.0.0 — 2026-09-22
 

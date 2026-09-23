@@ -12,6 +12,7 @@ The repository contains a host-side simulator under `tests/host`. It compiles th
 - Arduino timing and ADC input
 
 The same test command also checks that the 15 required DFPlayer files exist under `assets/audio/MP3` and are non-empty.
+It also verifies that the canonical `VERSION` file matches `ADA_VERSION` in the firmware.
 
 ## Run locally
 
@@ -25,6 +26,7 @@ Validated result:
 
 ```text
 ADA host hardware simulation PASS
+Project version: 1.0.1
 Assertions: 83
 Recognized gesture events: 19/19
 Servo range: 45..134 degrees
@@ -54,6 +56,7 @@ Audio assets: 15/15
 - Servo commands stay in the safe 0°–180° range
 - All face audio tracks use deterministic MP3-folder commands
 - All required audio assets use four-digit filenames and are present
+- Project version metadata remains synchronized with the firmware
 
 ## Limitation
 

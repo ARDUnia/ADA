@@ -1,0 +1,9 @@
+#ifndef ADA_VERSION_H
+#define ADA_VERSION_H
+
+#define ADA_VERSION_MAJOR 1
+#define ADA_VERSION_MINOR 0
+#define ADA_VERSION_PATCH 1
+#define ADA_VERSION "1.0.1"
+
+#endif  // ADA_VERSION_H
