@@ -7,6 +7,7 @@
 - Added automated checks for missing or empty audio assets.
 - Updated the English and Persian microSD setup instructions.
 - Updated GitHub Actions checkout to the Node.js 24-compatible v7 release.
+- Pinned the CI runner to Ubuntu 24.04 for reproducible builds.
 
 ## 1.0.0 — 2026-09-22
 
