@@ -6,6 +6,7 @@
 - Normalized the supplied three-digit filenames to DFPlayer-compatible four-digit names.
 - Added automated checks for missing or empty audio assets.
 - Updated the English and Persian microSD setup instructions.
+- Updated GitHub Actions checkout to the Node.js 24-compatible v7 release.
 
 ## 1.0.0 — 2026-09-22
 
