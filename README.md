@@ -94,6 +94,12 @@ platformio.ini       Optional PlatformIO environment
 
 The current build passes 83 host assertions, recognizes all 19 gesture patterns and verifies that all 15 required audio tracks are present. The simulated servo command range is 45°–134°. See [docs/TESTING.md](docs/TESTING.md) for scope and limitations.
 
+## Hardware Safety and Liability Disclaimer
+
+This project is provided **“as is”** for educational and experimental use. Building, wiring, modifying, or operating electronic hardware may cause damage to the board, display, other components, connected equipment, or property, and may cause injury. **The author accepts no responsibility for hardware damage, component failure, wiring mistakes, power-supply issues, or other losses resulting from assembling, modifying, or using this project. You build and use the hardware at your own risk.**
+
+Before applying power, verify all pin connections, voltage levels, current requirements, polarity, and the specifications of your particular boards and modules. Do not assume that every module sold under the same name has identical electrical requirements.
+
 ## License
 
 No open-source license has been selected yet. Copyright remains with the project owner; reuse or redistribution requires permission until a license is added.
