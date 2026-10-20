@@ -22,6 +22,6 @@ All supplied files were decode-checked after extraction. They are mono MP3 audio
 
 ## Rights
 
-These audio assets are provided as part of the ADA project by the project owner. The repository currently has no open-source license; reuse or redistribution requires permission until an explicit license is added.
+These audio assets are included in this repository and distributed under the project’s [MIT License](../../LICENSE), subject to the terms of that license.
 
 Project websites: [ardunia.ir](https://ardunia.ir) · [hrmnia.com](https://hrmnia.com)
