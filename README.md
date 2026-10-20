@@ -102,7 +102,7 @@ Before applying power, verify all pin connections, voltage levels, current requi
 
 ## License
 
-No open-source license has been selected yet. Copyright remains with the project owner; reuse or redistribution requires permission until a license is added.
+This project is released under the [MIT License](LICENSE). Copyright (c) 2026 Hamidreza Milaninia. The license permits use, modification and redistribution subject to its terms.
 
 ## Author
 
